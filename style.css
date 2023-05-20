@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#cabecalho {
+    background-color: black;
+}
+
+.text-title {
+    font-family: 'Foldit', cursive;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
