@@ -10,10 +10,32 @@ body {
     font-family: 'Foldit', cursive;
 }
 
-.nav-link {
+.nav-link,
+.font-white,
+.nav-link:hover {
     color: #fff;
 }
 
-.nav-link:hover {
-    color: #fff;
+
+
+#results {
+    background: url('assets/estadio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overflow {
+    height: 100%;
+    background-color: #070707;
+    opacity: 0.9;
+    
+}
+
+.padding-p {
+    padding: 200px 0;
+}
+
+.btn,
+.btn:hover {
+    background-color: #fff;
 }
