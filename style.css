@@ -3,7 +3,8 @@ body {
 }
 
 #cabecalho,
-#contact {
+#contact,
+#highlights button.active  {
     background-color: black;
 }
 
@@ -18,11 +19,16 @@ body {
 .nav-link,
 .font-white,
 .nav-link:hover, 
-label, h3
+label, 
+h3,
+#cabecalho .nav .nav-link:focus
 {
     color: #fff;
 }
 
+.nav-highlights button.active {
+    color: #fff !important; 
+}
 
 #results {
     background: url('assets/estadio.jpg');
@@ -41,15 +47,17 @@ label, h3
     padding: 200px 0;
 }
 
-.padding-a {
-    padding: 150px 0;
-}
-
 .btn,
 .btn:hover,
-a .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
 }
+
+
+#cabecalho .nav .nav-link.active {
+    color: black;
+}
+
 
 .social-links {
     list-style: none;
